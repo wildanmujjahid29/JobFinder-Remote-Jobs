@@ -7,7 +7,7 @@ use GuzzleHttp\Client;
 
 class ChatController extends Controller
 {
-    private $apiKey = 'AIzaSyCaTpnlSG7LBwbe3r2Ih-x1lEEYlA9aNnw';  
+    private $apiKey = 'Gemini API';  
     private $baseUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent';
 
     public function sendMessage(Request $request)
